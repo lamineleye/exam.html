@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reservation</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="debut">
+        <div class="logo">
+            <img src="logo.png" alt="">
+            <h2>TERANGA</h2>
+            <strong>FOOD</strong>
+        </div>
+        <input type="checkbox" id="debutToggle" class="debut-checkbox" />
+        <label for="debutToggle" class="debut-toggle" aria-label="Ouvrir le menu">
+                <span></span>
+        </label>
+        <div class="menu">
+            <a href="index.html">Accueil</a>
+            <a href="menu.html">Menu</a>
+            <a href="about.html">About</a>
+            <a href="galerie.html">Galerie</a>
+            <a href="reservation.html">Reservation</a>
+        </div>
+    </div>
+    <div class="enbien">
+        <div class="enbien1">
+            <i class="fa-solid fa-bell-concierge krd"></i>
+            <h2>Réservez votre table dès maintenant</h2>
+            <p>Envie de savourer nos délicieux plats dans une ambiance chaleureuse et conviviale ? N’attendez plus ! Réservez votre table en quelques secondes et assurez-vous une place pour vivre une expérience culinaire inoubliable chez nous. Que ce soit pour un déjeuner en famille, un dîner entre amis ou un moment spécial, nous sommes prêts à vous accueillir.</p>
+        </div>
+        <div class="enbien2">
+            <img src="teranga.png" alt="">
+        </div>
+    </div>
+    <form action="/envoyer" class="form1">    
+        <div class="morf">
+            <i class="fa-solid fa-file-lines"></i>
+            <h2>Formulaire de reservation</h2>
+        </div>
+        <div class="japan">
+            <div class="maria">
+                <label for="name"> Nom complet</label>
+                <input type="text" id="name" name="name" placeholder="Votre Nom complet" required>
+                <label for="email"> Email</label>
+                <input type="email" id="email" name="email" placeholder="email" required>
+                <label for="number">Téléphone</label>
+                <input type="tel" id="number" name="number" placeholder="77 123 45 67" required>
+            </div>
+            <div class="gangtaka">
+                <label for="time"> Heure</label>
+                <input type="time" id="time" name="time" placeholder="--:--" required>
+                <label for="date"> Date</label>
+                <input type="date" id="date" name="date"  required>
+                <label for="nombre"> Nombre de personnes</label>
+                <select name="nombre" id="nombre">
+                    <option value="">2 personnes</option>
+                    <option value="">3 personnes</option>
+                    <option value="">4 personnes</option>
+                    <option value="">plus de 4 personnes</option>
+                </select>
+            </div>
+        </div>
+        <div class="japan2">
+            <label for="demande"> demande spéciale</label>
+            <textarea name="demande" id="demande" placeholder="EX: anniversaire, allergie, ..." ></textarea>
+            <button>confirmer la réservation</button>
+        </div>
+        
+    </form>
+    <div class="madaraskit">
+            <div class="footer1">
+        <div class="add">
+            <h1>Contactez-nous</h1>
+            <h3>Téléphone et e-mail</h3>
+            <p><i class="fa-brands fa-whatsapp connect"></i>+221 77 123 45 67</p>
+            <p><i class="fa-solid fa-phone"></i>33 123 45 67 </p>
+        </div>
+        <div class="add">
+            <h3>Horaires</h3>
+            <p>ouvert de 10h à 18h du lundi au vendredi</p>
+        </div>
+        <div class="lien">
+            <h3>Lien vers les réseaus </h3>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://fr-fr.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://x.com/i/flow/login?redirect_after_login=%2F%2523!%2F"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+    </div>
+    </div>
+    <div class="txt"><h4> Copyright © 2026 TERANGA FOOD. Tous droits réservés.</h4></div>
+</body>
+</html>
