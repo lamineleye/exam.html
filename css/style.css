@@ -992,11 +992,19 @@ body{
         .icone1 p{
             max-width: 90%;
         }
+        .icone1{
+            margin-bottom: 14px;
+            max-width: 95%;
+        }   
         }
 @media (max-width: 545px) {
         .icone{
             grid-template-columns: repeat(1,1fr);
             max-width: 90%;
+        }
+        .icone1 {
+            margin-bottom: 14px;
+            max-width: 100%;
         }
         }
                         /* FIN PAGE GALERIE */
