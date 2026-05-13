@@ -944,7 +944,16 @@ body{
     height: 240px;
     box-shadow: 0px 12px 26px rgba(0, 0, 0, 0.148);
     border-radius: 10px;
-}
+}@media (max-width: 1284px) {
+        .fatiguer{
+            grid-template-columns: repeat(3,1fr);
+            max-width: 90%;
+        }
+        .fatiguer img{
+            max-width: 100%;
+            width: 450px;
+        }
+        }
 @media (max-width: 1024px) {
         .fatiguer{
             grid-template-columns: repeat(2,1fr);
